@@ -81,3 +81,5 @@ SHIELD_TYPE = "shield"
 RESET_IMG = pygame.image.load(os.path.join(IMG_DIR, 'Other/Reset.png'))
 
 FONT_STYLE = os.path.join(os.path.dirname(__file__), "..", "assets", "font", "PressStart2P-Regular.ttf")
+
+STAR = pygame.image.load(os.path.join(IMG_DIR, 'star', 'star.png'))
