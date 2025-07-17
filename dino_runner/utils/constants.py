@@ -69,5 +69,15 @@ BG = pygame.image.load(os.path.join(IMG_DIR, 'Other/Track.png'))
 
 HEART = pygame.image.load(os.path.join(IMG_DIR, 'Other/SmallHeart.png'))
 
+DINO_DEAD = pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoDead.png"))
+
+GAME_OVER_IMG = pygame.image.load(os.path.join(IMG_DIR, 'Other/GameOver.png'))
+
+DINO_START = pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoStart.png"))
+
 DEFAULT_TYPE = "default"
 SHIELD_TYPE = "shield"
+
+RESET_IMG = pygame.image.load(os.path.join(IMG_DIR, 'Other/Reset.png'))
+
+FONT_STYLE = os.path.join(os.path.dirname(__file__), "..", "assets", "font", "PressStart2P-Regular.ttf")
